@@ -1,0 +1,502 @@
+﻿Site Name,Date,Entero Count,4 Days Total Rain (in),Number of Samples,Geometric Mean,Max,Min
+Hudson above Mohawk River,10/13/18,>2420,1.6,72,27,>2420,<1
+Hudson above Mohawk River,9/13/18,31,1.1,72,27,>2420,<1
+Hudson above Mohawk River,8/17/18,104,0,72,27,>2420,<1
+Hudson above Mohawk River,7/20/18,1986,0.4,72,27,>2420,<1
+Hudson above Mohawk River,6/16/18,6,0.4,72,27,>2420,<1
+Hudson above Mohawk River,5/9/18,15,0.3,72,27,>2420,<1
+Mohawk River at Waterford,10/13/18,416,1.6,71,229,>2420,4
+Mohawk River at Waterford,9/13/18,354,1.1,71,229,>2420,4
+Mohawk River at Waterford,8/17/18,411,0,71,229,>2420,4
+Mohawk River at Waterford,7/20/18,20,0.4,71,229,>2420,4
+Mohawk River at Waterford,6/16/18,1300,0.4,71,229,>2420,4
+Mohawk River at Waterford,5/9/18,46,0.3,71,229,>2420,4
+Hudson River above Troy Lock,10/13/18,>2420,1.6,74,109,>2420,3
+Hudson River above Troy Lock,9/13/18,44,1.1,74,109,>2420,3
+Hudson River above Troy Lock,8/17/18,388,0,74,109,>2420,3
+Hudson River above Troy Lock,7/20/18,345,0.4,74,109,>2420,3
+Hudson River above Troy Lock,6/16/18,72,0.4,74,109,>2420,3
+Hudson River above Troy Lock,5/9/18,17,0.3,74,109,>2420,3
+Congress St. Bridge- Troy,10/13/18,>2420,1.6,75,77,>2420,2
+Congress St. Bridge- Troy,9/13/18,101,1.1,75,77,>2420,2
+Congress St. Bridge- Troy,8/17/18,549,0,75,77,>2420,2
+Congress St. Bridge- Troy,7/20/18,270,0.4,75,77,>2420,2
+Congress St. Bridge- Troy,6/16/18,71,0.4,75,77,>2420,2
+Congress St. Bridge- Troy,5/9/18,22,0.3,75,77,>2420,2
+Albany Rowing Dock,10/13/18,2420,1.6,73,65,>2420,3
+Albany Rowing Dock,9/13/18,111,1.1,73,65,>2420,3
+Albany Rowing Dock,8/17/18,44,0,73,65,>2420,3
+Albany Rowing Dock,7/20/18,15,0.4,73,65,>2420,3
+Albany Rowing Dock,6/16/18,104,0.4,73,65,>2420,3
+Albany Rowing Dock,5/9/18,25,0.3,73,65,>2420,3
+Dunn Memorial Bridge- Albany,10/13/18,>2420,1.6,75,69,>2420,2
+Dunn Memorial Bridge- Albany,9/13/18,98,1.1,75,69,>2420,2
+Dunn Memorial Bridge- Albany,8/17/18,33,0,75,69,>2420,2
+Dunn Memorial Bridge- Albany,7/20/18,30,0.4,75,69,>2420,2
+Dunn Memorial Bridge- Albany,6/16/18,19,0.4,75,69,>2420,2
+Dunn Memorial Bridge- Albany,5/9/18,16,0.3,75,69,>2420,2
+Island Creek/Normans Kill,10/13/18,>2420,1.6,72,81,>2420,2
+Island Creek/Normans Kill,9/13/18,1203,1.1,72,81,>2420,2
+Island Creek/Normans Kill,8/17/18,214,0,72,81,>2420,2
+Island Creek/Normans Kill,7/20/18,8,0.4,72,81,>2420,2
+Island Creek/Normans Kill,6/16/18,100,0.4,72,81,>2420,2
+Island Creek/Normans Kill,5/9/18,27,0.3,72,81,>2420,2
+Bethlehem Launch Ramp,10/13/18,1986,1.6,72,31,>2420,<1
+Bethlehem Launch Ramp,9/13/18,36,1.1,72,31,>2420,<1
+Bethlehem Launch Ramp,8/17/18,37,0,72,31,>2420,<1
+Bethlehem Launch Ramp,7/20/18,13,0.4,72,31,>2420,<1
+Bethlehem Launch Ramp,6/16/18,20,0.4,72,31,>2420,<1
+Bethlehem Launch Ramp,5/9/18,15,0.3,72,31,>2420,<1
+Castleton,10/13/18,1986,1.6,71,31,1986,<1
+Castleton,9/13/18,58,1.1,71,31,1986,<1
+Castleton,8/17/18,33,0,71,31,1986,<1
+Castleton,7/20/18,10,0.4,71,31,1986,<1
+Castleton,6/16/18,81,0.4,71,31,1986,<1
+Castleton,5/9/18,13,0.3,71,31,1986,<1
+Coeymans Landing,10/13/18,1733,1.6,72,23,1986,<1
+Coeymans Landing,9/13/18,79,1.1,72,23,1986,<1
+Coeymans Landing,8/17/18,35,0,72,23,1986,<1
+Coeymans Landing,7/20/18,19,0.4,72,23,1986,<1
+Coeymans Landing,6/16/18,23,0.4,72,23,1986,<1
+Coeymans Landing,5/9/18,8,0.3,72,23,1986,<1
+Coxsackie Waterfront Park,10/13/18,770,1.6,71,27,>2420,<1
+Coxsackie Waterfront Park,9/13/18,1986,1.1,71,27,>2420,<1
+Coxsackie Waterfront Park,8/17/18,16,0,71,27,>2420,<1
+Coxsackie Waterfront Park,7/20/18,12,0.4,71,27,>2420,<1
+Coxsackie Waterfront Park,6/16/18,146,0.4,71,27,>2420,<1
+Coxsackie Waterfront Park,5/9/18,6,0.3,71,27,>2420,<1
+Gay's Point mid-channel,10/13/18,233,1.6,72,15,>2420,<1
+Gay's Point mid-channel,9/13/18,727,1.1,72,15,>2420,<1
+Gay's Point mid-channel,8/17/18,28,0,72,15,>2420,<1
+Gay's Point mid-channel,7/20/18,29,0.4,72,15,>2420,<1
+Gay's Point mid-channel,6/16/18,6,0.4,72,15,>2420,<1
+Gay's Point mid-channel,5/9/18,11,0.3,72,15,>2420,<1
+Athens,10/13/18,517,1.6,72,37,>2420,5
+Athens,9/13/18,189,1.1,72,37,>2420,5
+Athens,8/17/18,36,0,72,37,>2420,5
+Athens,7/20/18,39,0.4,72,37,>2420,5
+Athens,6/16/18,14,0.4,72,37,>2420,5
+Athens,5/9/18,15,0.3,72,37,>2420,5
+Hudson Landing Ramp,10/13/18,575,1.6,73,25,>2420,2
+Hudson Landing Ramp,9/13/18,98,1.1,73,25,>2420,2
+Hudson Landing Ramp,8/17/18,12,0,73,25,>2420,2
+Hudson Landing Ramp,7/20/18,28,0.4,73,25,>2420,2
+Hudson Landing Ramp,6/16/18,15,0.4,73,25,>2420,2
+Hudson Landing Ramp,5/9/18,9,0.3,73,25,>2420,2
+Catskill Launch Ramp,10/12/18,435,1.3,74,13,>2420,<1
+Catskill Launch Ramp,9/12/18,50,1.1,74,13,>2420,<1
+Catskill Launch Ramp,8/16/18,31,0.1,74,13,>2420,<1
+Catskill Launch Ramp,7/19/18,41,0.4,74,13,>2420,<1
+Catskill Launch Ramp,6/15/18,12,0.4,74,13,>2420,<1
+Catskill Launch Ramp,5/8/18,10,0.3,74,13,>2420,<1
+Inbocht Bay,10/12/18,197,1.3,72,7,>2420,<1
+Inbocht Bay,9/12/18,23,1.1,72,7,>2420,<1
+Inbocht Bay,8/16/18,18,0.1,72,7,>2420,<1
+Inbocht Bay,7/19/18,8,0.4,72,7,>2420,<1
+Inbocht Bay,6/15/18,10,0.4,72,7,>2420,<1
+Inbocht Bay,5/8/18,11,0.3,72,7,>2420,<1
+Malden Launch Ramp,10/12/18,125,1.3,72,13,1986,<1
+Malden Launch Ramp,9/12/18,28,1.1,72,13,1986,<1
+Malden Launch Ramp,8/16/18,18,0.1,72,13,1986,<1
+Malden Launch Ramp,7/19/18,3,0.4,72,13,1986,<1
+Malden Launch Ramp,6/15/18,7,0.4,72,13,1986,<1
+Malden Launch Ramp,5/8/18,7,0.3,72,13,1986,<1
+Esopus Creek West,10/12/18,>2420,1.3,82,21,>2420,<1
+Esopus Creek West,9/12/18,687,1.1,82,21,>2420,<1
+Esopus Creek West,8/16/18,62,0.1,82,21,>2420,<1
+Esopus Creek West,7/19/18,15,0.4,82,21,>2420,<1
+Esopus Creek West,6/15/18,8,0.4,82,21,>2420,<1
+Esopus Creek West,5/8/18,6,0.3,82,21,>2420,<1
+Esopus Creek Entrance,10/12/18,>2420,1.3,125,23,>2420,<1
+Esopus Creek Entrance,10/11/18,387,0.5,125,23,>2420,<1
+Esopus Creek Entrance,9/12/18,579,1.1,125,23,>2420,<1
+Esopus Creek Entrance,9/6/18,65,0,125,23,>2420,<1
+Esopus Creek Entrance,8/16/18,22,0.1,125,23,>2420,<1
+Esopus Creek Entrance,8/8/18,>2420,1.2,125,23,>2420,<1
+Esopus Creek Entrance,7/19/18,25,0.4,125,23,>2420,<1
+Esopus Creek Entrance,7/12/18,99,0,125,23,>2420,<1
+Esopus Creek Entrance,6/15/18,2,0.4,125,23,>2420,<1
+Esopus Creek Entrance,6/7/18,33,0.5,125,23,>2420,<1
+Esopus Creek Entrance,5/12/18,15,0,125,23,>2420,<1
+Esopus Creek Entrance,5/8/18,<1,0.3,125,23,>2420,<1
+Tivoli Landing,10/12/18,116,1.3,73,5,>2420,<1
+Tivoli Landing,9/12/18,15,1.1,73,5,>2420,<1
+Tivoli Landing,8/16/18,37,0.1,73,5,>2420,<1
+Tivoli Landing,7/19/18,<1,0.4,73,5,>2420,<1
+Tivoli Landing,6/15/18,2,0.4,73,5,>2420,<1
+Tivoli Landing,5/8/18,1,0.3,73,5,>2420,<1
+Ulster Landing Beach,10/12/18,435,1.3,73,7,>2420,<1
+Ulster Landing Beach,9/12/18,649,1.1,73,7,>2420,<1
+Ulster Landing Beach,8/16/18,25,0.1,73,7,>2420,<1
+Ulster Landing Beach,7/19/18,3,0.4,73,7,>2420,<1
+Ulster Landing Beach,6/15/18,2,0.4,73,7,>2420,<1
+Ulster Landing Beach,5/8/18,2,0.3,73,7,>2420,<1
+Kingston Point Beach,10/13/18,>2420,1.7,120,9,>2420,<1
+Kingston Point Beach,10/12/18,1986,1.6,120,9,>2420,<1
+Kingston Point Beach,9/12/18,78,3.8,120,9,>2420,<1
+Kingston Point Beach,9/8/18,14,0.1,120,9,>2420,<1
+Kingston Point Beach,8/16/18,26,1.4,120,9,>2420,<1
+Kingston Point Beach,8/11/18,30,1.6,120,9,>2420,<1
+Kingston Point Beach,7/19/18,10,1.4,120,9,>2420,<1
+Kingston Point Beach,7/14/18,29,0,120,9,>2420,<1
+Kingston Point Beach,6/15/18,4,0,120,9,>2420,<1
+Kingston Point Beach,5/12/18,14,0,120,9,>2420,<1
+Kingston Point Beach,5/8/18,<1,0.4,120,9,>2420,<1
+Kingston STP Outfall,10/12/18,>2420,1.6,77,87,>2420,2
+Kingston STP Outfall,9/12/18,>2420,3.8,77,87,>2420,2
+Kingston STP Outfall,8/16/18,172,1.4,77,87,>2420,2
+Kingston STP Outfall,7/19/18,1419,1.4,77,87,>2420,2
+Kingston STP Outfall,6/15/18,58,0,77,87,>2420,2
+Kingston STP Outfall,5/8/18,35,0.4,77,87,>2420,2
+Rondout- Kingston Public Dock,10/12/18,>2420,1.6,76,71,>2420,4
+Rondout- Kingston Public Dock,9/12/18,>2420,3.8,76,71,>2420,4
+Rondout- Kingston Public Dock,8/16/18,461,1.4,76,71,>2420,4
+Rondout- Kingston Public Dock,7/19/18,72,1.4,76,71,>2420,4
+Rondout- Kingston Public Dock,6/15/18,50,0,76,71,>2420,4
+Rondout- Kingston Public Dock,5/8/18,20,0.4,76,71,>2420,4
+Rondout- Eddyville Anchorage,10/13/18,>2420,1.7,123,49,>2420,<1
+Rondout- Eddyville Anchorage,10/12/18,>2420,1.6,123,49,>2420,<1
+Rondout- Eddyville Anchorage,9/12/18,>2420,3.8,123,49,>2420,<1
+Rondout- Eddyville Anchorage,9/8/18,1120,0.1,123,49,>2420,<1
+Rondout- Eddyville Anchorage,8/16/18,461,1.4,123,49,>2420,<1
+Rondout- Eddyville Anchorage,8/11/18,921,1.6,123,49,>2420,<1
+Rondout- Eddyville Anchorage,7/19/18,60,1.4,123,49,>2420,<1
+Rondout- Eddyville Anchorage,7/14/18,248,0,123,49,>2420,<1
+Rondout- Eddyville Anchorage,6/15/18,44,0,123,49,>2420,<1
+Rondout- Eddyville Anchorage,5/12/18,4,0,123,49,>2420,<1
+Rondout- Eddyville Anchorage,5/8/18,13,0.4,123,49,>2420,<1
+Port Ewen Drinking Water Intake,10/12/18,>2420,0.3,74,5,>2420,<1
+Port Ewen Drinking Water Intake,9/12/18,86,0.1,74,5,>2420,<1
+Port Ewen Drinking Water Intake,8/16/18,25,0.3,74,5,>2420,<1
+Port Ewen Drinking Water Intake,7/19/18,10,1.1,74,5,>2420,<1
+Port Ewen Drinking Water Intake,6/15/18,2,0.1,74,5,>2420,<1
+Port Ewen Drinking Water Intake,5/8/18,1,0.1,74,5,>2420,<1
+Norrie Point Yacht Basin,10/12/18,>2420,0.3,72,25,>2420,<1
+Norrie Point Yacht Basin,9/12/18,162,0.1,72,25,>2420,<1
+Norrie Point Yacht Basin,8/16/18,82,0.3,72,25,>2420,<1
+Norrie Point Yacht Basin,7/19/18,4,1.1,72,25,>2420,<1
+Norrie Point Yacht Basin,6/15/18,594,0.1,72,25,>2420,<1
+Norrie Point Yacht Basin,5/8/18,2,0.1,72,25,>2420,<1
+Norrie Point mid-channel,10/12/18,105,0.3,73,3,1203,<1
+Norrie Point mid-channel,9/12/18,5,0.1,73,3,1203,<1
+Norrie Point mid-channel,8/16/18,28,0.3,73,3,1203,<1
+Norrie Point mid-channel,7/19/18,<1,1.1,73,3,1203,<1
+Norrie Point mid-channel,6/15/18,2,0.1,73,3,1203,<1
+Norrie Point mid-channel,5/8/18,1,0.1,73,3,1203,<1
+Poughkeepsie Drinking Water Intake,10/11/18,21,0.3,75,5,76,<1
+Poughkeepsie Drinking Water Intake,9/11/18,16,0.1,75,5,76,<1
+Poughkeepsie Drinking Water Intake,8/15/18,7,0.4,75,5,76,<1
+Poughkeepsie Drinking Water Intake,7/18/18,14,1.1,75,5,76,<1
+Poughkeepsie Drinking Water Intake,6/14/18,6,0.1,75,5,76,<1
+Poughkeepsie Drinking Water Intake,5/7/18,2,0.1,75,5,76,<1
+Poughkeepsie Launch Ramp,10/11/18,>2420,0.3,73,11,>2420,<1
+Poughkeepsie Launch Ramp,9/11/18,53,0.1,73,11,>2420,<1
+Poughkeepsie Launch Ramp,8/15/18,51,0.4,73,11,>2420,<1
+Poughkeepsie Launch Ramp,7/18/18,76,1.1,73,11,>2420,<1
+Poughkeepsie Launch Ramp,6/14/18,6,0.1,73,11,>2420,<1
+Poughkeepsie Launch Ramp,5/7/18,11,0.1,73,11,>2420,<1
+Marlboro Landing,10/11/18,436,0.3,71,11,>2420,<1
+Marlboro Landing,9/11/18,50,0.1,71,11,>2420,<1
+Marlboro Landing,8/15/18,37,0.4,71,11,>2420,<1
+Marlboro Landing,7/18/18,25,1.1,71,11,>2420,<1
+Marlboro Landing,6/14/18,8,0.1,71,11,>2420,<1
+Marlboro Landing,5/7/18,2,0.1,71,11,>2420,<1
+Wappingers- New Hamburg,10/11/18,435,0.3,71,15,>2420,<1
+Wappingers- New Hamburg,9/11/18,39,0.1,71,15,>2420,<1
+Wappingers- New Hamburg,8/15/18,51,0.4,71,15,>2420,<1
+Wappingers- New Hamburg,7/18/18,178,1.1,71,15,>2420,<1
+Wappingers- New Hamburg,6/14/18,33,0.1,71,15,>2420,<1
+Wappingers- New Hamburg,5/7/18,4,0.1,71,15,>2420,<1
+Beacon Harbor,10/11/18,435,0.3,76,19,816,<1
+Beacon Harbor,9/11/18,35,0.1,76,19,816,<1
+Beacon Harbor,8/15/18,56,0.4,76,19,816,<1
+Beacon Harbor,7/18/18,461,1.1,76,19,816,<1
+Beacon Harbor,6/14/18,387,0.1,76,19,816,<1
+Beacon Harbor,5/7/18,6,0.1,76,19,816,<1
+Newburgh Launch Ramp,10/11/18,770,0.3,76,91,>2420,<1
+Newburgh Launch Ramp,9/11/18,260,0.1,76,91,>2420,<1
+Newburgh Launch Ramp,8/15/18,211,0.4,76,91,>2420,<1
+Newburgh Launch Ramp,7/18/18,456,1.1,76,91,>2420,<1
+Newburgh Launch Ramp,6/14/18,158,0.1,76,91,>2420,<1
+Newburgh Launch Ramp,5/7/18,276,0.1,76,91,>2420,<1
+Little Stony Point,10/11/18,27,0.3,75,9,166,<1
+Little Stony Point,9/11/18,56,0.1,75,9,166,<1
+Little Stony Point,8/15/18,60,0.4,75,9,166,<1
+Little Stony Point,7/18/18,21,1.1,75,9,166,<1
+Little Stony Point,6/14/18,34,0.1,75,9,166,<1
+Little Stony Point,5/7/18,4,0.1,75,9,166,<1
+Cold Spring Harbor,10/11/18,125,0.3,71,11,184,<1
+Cold Spring Harbor,9/11/18,69,0.1,71,11,184,<1
+Cold Spring Harbor,8/15/18,40,0.4,71,11,184,<1
+Cold Spring Harbor,7/18/18,43,1.1,71,11,184,<1
+Cold Spring Harbor,6/14/18,49,0.1,71,11,184,<1
+Cold Spring Harbor,5/7/18,2,0.1,71,11,184,<1
+West Point STP Outfall,10/11/18,16,0.3,73,13,>2420,<1
+West Point STP Outfall,9/11/18,16,0.1,73,13,>2420,<1
+West Point STP Outfall,8/15/18,7,0.4,73,13,>2420,<1
+West Point STP Outfall,7/18/18,1,1.1,73,13,>2420,<1
+West Point STP Outfall,6/14/18,7,0.1,73,13,>2420,<1
+West Point STP Outfall,5/7/18,2420,0.1,73,13,>2420,<1
+Fort Montgomery,10/11/18,31,0,72,13,>2420,<1
+Fort Montgomery,9/11/18,82,0.1,72,13,>2420,<1
+Fort Montgomery,8/15/18,43,0.4,72,13,>2420,<1
+Fort Montgomery,7/18/18,23,1.1,72,13,>2420,<1
+Fort Montgomery,6/14/18,22,0.1,72,13,>2420,<1
+Fort Montgomery,5/7/18,6,0.1,72,13,>2420,<1
+Annesville Creek,10/11/18,20,0.1,74,19,2098,5
+Annesville Creek,9/11/18,41,1.9,74,19,2098,5
+Annesville Creek,8/15/18,<10,1,74,19,2098,5
+Annesville Creek,7/18/18,10,2,74,19,2098,5
+Annesville Creek,6/14/18,<10,0,74,19,2098,5
+Annesville Creek,5/7/18,31,0.2,74,19,2098,5
+Peekskill Riverfront Green Park,10/11/18,52,0.1,79,23,4352,2
+Peekskill Riverfront Green Park,9/11/18,41,1.9,79,23,4352,2
+Peekskill Riverfront Green Park,8/15/18,31,1,79,23,4352,2
+Peekskill Riverfront Green Park,7/18/18,31,2,79,23,4352,2
+Peekskill Riverfront Green Park,6/14/18,<10,0,79,23,4352,2
+Peekskill Riverfront Green Park,5/7/18,20,0.2,79,23,4352,2
+Stony Point mid-channel,10/11/18,10,0.1,81,11,196,<1
+Stony Point mid-channel,9/11/18,63,1.9,81,11,196,<1
+Stony Point mid-channel,8/15/18,<10,1,81,11,196,<1
+Stony Point mid-channel,7/18/18,<10,2,81,11,196,<1
+Stony Point mid-channel,6/14/18,<10,0,81,11,196,<1
+Stony Point mid-channel,5/7/18,10,0.2,81,11,196,<1
+Furnace Brook,10/11/18,20,0.1,84,29,4106,6
+Furnace Brook,9/11/18,52,1.9,84,29,4106,6
+Furnace Brook,8/15/18,41,1,84,29,4106,6
+Furnace Brook,7/18/18,1274,2,84,29,4106,6
+Furnace Brook,6/14/18,10,0,84,29,4106,6
+Furnace Brook,5/7/18,75,0.2,84,29,4106,6
+Cedar Pond Brook,10/11/18,41,0.1,84,25,5794,6
+Cedar Pond Brook,9/11/18,52,1.9,84,25,5794,6
+Cedar Pond Brook,8/15/18,20,1,84,25,5794,6
+Cedar Pond Brook,7/18/18,30,2,84,25,5794,6
+Cedar Pond Brook,6/14/18,10,0,84,25,5794,6
+Cedar Pond Brook,5/7/18,10,0.2,84,25,5794,6
+Haverstraw Bay mid-channel,10/11/18,<10,0.1,85,11,164,4
+Haverstraw Bay mid-channel,9/11/18,20,1.9,85,11,164,4
+Haverstraw Bay mid-channel,8/15/18,10,1,85,11,164,4
+Haverstraw Bay mid-channel,7/18/18,20,2,85,11,164,4
+Haverstraw Bay mid-channel,6/14/18,<10,0,85,11,164,4
+Haverstraw Bay mid-channel,5/7/18,<10,0.2,85,11,164,4
+Emeline Beach- Haverstraw,10/11/18,30,0.1,74,15,10462,5
+Emeline Beach- Haverstraw,9/11/18,110,1.9,74,15,10462,5
+Emeline Beach- Haverstraw,8/15/18,52,1,74,15,10462,5
+Emeline Beach- Haverstraw,7/18/18,85,2,74,15,10462,5
+Emeline Beach- Haverstraw,6/14/18,<10,0,74,15,10462,5
+Emeline Beach- Haverstraw,5/7/18,<10,0.2,74,15,10462,5
+Croton Point Beach,10/11/18,<10,0.1,86,11,241,2
+Croton Point Beach,9/11/18,63,1.9,86,11,241,2
+Croton Point Beach,8/15/18,10,1,86,11,241,2
+Croton Point Beach,7/18/18,<10,2,86,11,241,2
+Croton Point Beach,6/14/18,<10,0,86,11,241,2
+Croton Point Beach,5/7/18,<10,0.2,86,11,241,2
+Ossining Beach,10/10/18,<10,0.1,84,21,4611,2
+Ossining Beach,9/10/18,1130,1.9,84,21,4611,2
+Ossining Beach,8/14/18,<10,2.9,84,21,4611,2
+Ossining Beach,7/17/18,1470,2.5,84,21,4611,2
+Ossining Beach,6/13/18,31,0,84,21,4611,2
+Ossining Beach,5/6/18,85,0.5,84,21,4611,2
+Kingsland Pt. Park- Pocantico River,10/27/18,75,0.8,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,10/10/18,20,0.1,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,9/15/18,107,0.1,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,9/10/18,3255,1.9,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,8/18/18,17329,0.9,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,8/14/18,63,2.9,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,7/17/18,327,2.5,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,6/16/18,473,0,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,6/13/18,20,0,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,5/19/18,1081,2,124,51,24200,<10
+Kingsland Pt. Park- Pocantico River,5/6/18,84,0.5,124,51,24200,<10
+Nyack Launch Ramp,12/3/18,62,1.1,182,39,7701,<10
+Nyack Launch Ramp,11/8/18,63,0.9,182,39,7701,<10
+Nyack Launch Ramp,10/24/18,74,0.1,182,39,7701,<10
+Nyack Launch Ramp,10/10/18,<10,0.1,182,39,7701,<10
+Nyack Launch Ramp,9/20/18,30,1.2,182,39,7701,<10
+Nyack Launch Ramp,9/10/18,776,1.9,182,39,7701,<10
+Nyack Launch Ramp,8/14/18,10,2.9,182,39,7701,<10
+Nyack Launch Ramp,8/9/18,10,0.5,182,39,7701,<10
+Nyack Launch Ramp,7/23/18,1529,2.1,182,39,7701,<10
+Nyack Launch Ramp,7/17/18,199,2.5,182,39,7701,<10
+Nyack Launch Ramp,6/21/18,318,0.4,182,39,7701,<10
+Nyack Launch Ramp,6/13/18,<10,0,182,39,7701,<10
+Nyack Launch Ramp,5/23/18,10,0.3,182,39,7701,<10
+Nyack Launch Ramp,5/6/18,<10,0.5,182,39,7701,<10
+Nyack Launch Ramp,4/24/18,<10,0,182,39,7701,<10
+Nyack Launch Ramp,3/26/18,10,0,182,39,7701,<10
+Nyack Launch Ramp,2/26/18,175,1.4,182,39,7701,<10
+Nyack Launch Ramp,1/24/18,563,1.2,182,39,7701,<10
+TZ Bridge mid-channel,10/10/18,10,0.1,98,11,252,<1
+TZ Bridge mid-channel,9/10/18,10,1.9,98,11,252,<1
+TZ Bridge mid-channel,8/14/18,<10,2.9,98,11,252,<1
+TZ Bridge mid-channel,7/17/18,31,2.5,98,11,252,<1
+TZ Bridge mid-channel,6/13/18,<10,0,98,11,252,<1
+TZ Bridge mid-channel,5/6/18,<10,0.5,98,11,252,<1
+Tarrytown Marina,10/10/18,10,0.1,65,57,24200,<10
+Tarrytown Marina,9/10/18,24196,1.9,65,57,24200,<10
+Tarrytown Marina,8/14/18,<10,2.9,65,57,24200,<10
+Tarrytown Marina,7/17/18,24200,2.5,65,57,24200,<10
+Tarrytown Marina,6/13/18,10,0,65,57,24200,<10
+Tarrytown Marina,5/6/18,10,0.5,65,57,24200,<10
+Piermont Pier,12/3/18,195,1.1,345,87,12030,4
+Piermont Pier,11/8/18,563,0.9,345,87,12030,4
+Piermont Pier,10/27/18,90,0.7,345,87,12030,4
+Piermont Pier,10/24/18,122,0.1,345,87,12030,4
+Piermont Pier,10/10/18,31,0.1,345,87,12030,4
+Piermont Pier,9/20/18,41,1.2,345,87,12030,4
+Piermont Pier,9/15/18,10,0.1,345,87,12030,4
+Piermont Pier,9/10/18,95,1.9,345,87,12030,4
+Piermont Pier,8/18/18,31,0.9,345,87,12030,4
+Piermont Pier,8/14/18,41,2.9,345,87,12030,4
+Piermont Pier,8/9/18,10,0.5,345,87,12030,4
+Piermont Pier,7/23/18,74,2.1,345,87,12030,4
+Piermont Pier,7/21/18,10,0,345,87,12030,4
+Piermont Pier,7/17/18,31,2.5,345,87,12030,4
+Piermont Pier,6/21/18,20,0.4,345,87,12030,4
+Piermont Pier,6/13/18,20,0,345,87,12030,4
+Piermont Pier,5/23/18,10,0.3,345,87,12030,4
+Piermont Pier,5/19/18,74,2,345,87,12030,4
+Piermont Pier,5/6/18,712,0.5,345,87,12030,4
+Piermont Pier,4/24/18,158,0,345,87,12030,4
+Piermont Pier,4/17/18,1664,2.9,345,87,12030,4
+Piermont Pier,3/26/18,146,0,345,87,12030,4
+Piermont Pier,2/26/18,298,1.4,345,87,12030,4
+Piermont Pier,1/24/18,134,1.2,345,87,12030,4
+Orangetown STP Outfall,10/10/18,<10,0.1,94,53,>24196,<1
+Orangetown STP Outfall,9/10/18,107,1.9,94,53,>24196,<1
+Orangetown STP Outfall,8/14/18,10,2.9,94,53,>24196,<1
+Orangetown STP Outfall,7/17/18,73,2.5,94,53,>24196,<1
+Orangetown STP Outfall,6/13/18,259,0,94,53,>24196,<1
+Orangetown STP Outfall,5/6/18,148,0.5,94,53,>24196,<1
+Irvington Beach,10/10/18,10,0.1,73,13,464,<10
+Irvington Beach,9/10/18,41,1.9,73,13,464,<10
+Irvington Beach,8/14/18,30,2.9,73,13,464,<10
+Irvington Beach,7/17/18,41,2.5,73,13,464,<10
+Irvington Beach,6/13/18,10,0,73,13,464,<10
+Irvington Beach,5/6/18,10,0.5,73,13,464,<10
+Upper Sparkill Creek,12/3/18,133,1.1,285,435,>24196,3
+Upper Sparkill Creek,11/8/18,267,0.9,285,435,>24196,3
+Upper Sparkill Creek,10/27/18,161,0.4,285,435,>24196,3
+Upper Sparkill Creek,10/24/18,79,0.1,285,435,>24196,3
+Upper Sparkill Creek,9/20/18,2420,1.2,285,435,>24196,3
+Upper Sparkill Creek,9/15/18,763,0.2,285,435,>24196,3
+Upper Sparkill Creek,8/18/18,>24196,1.7,285,435,>24196,3
+Upper Sparkill Creek,8/9/18,1553,0.5,285,435,>24196,3
+Upper Sparkill Creek,7/23/18,>2420,2.1,285,435,>24196,3
+Upper Sparkill Creek,7/21/18,602,0,285,435,>24196,3
+Upper Sparkill Creek,6/21/18,>2420,0.4,285,435,>24196,3
+Upper Sparkill Creek,6/16/18,1733,0,285,435,>24196,3
+Upper Sparkill Creek,5/23/18,>2420,0.3,285,435,>24196,3
+Upper Sparkill Creek,5/19/18,>2420,1.1,285,435,>24196,3
+Upper Sparkill Creek,4/24/18,55,0,285,435,>24196,3
+Upper Sparkill Creek,3/26/18,33,0,285,435,>24196,3
+Upper Sparkill Creek,2/26/18,161,1.4,285,435,>24196,3
+Upper Sparkill Creek,1/24/18,613,1.2,285,435,>24196,3
+Yonkers mid-channel,10/9/18,<10,0.1,92,13,8164,<1
+Yonkers mid-channel,9/9/18,<10,0.1,92,13,8164,<1
+Yonkers mid-channel,8/13/18,31,2.9,92,13,8164,<1
+Yonkers mid-channel,7/17/18,8164,2.5,92,13,8164,<1
+Yonkers mid-channel,6/12/18,<10,0,92,13,8164,<1
+Yonkers mid-channel,5/6/18,31,0.5,92,13,8164,<1
+Saw Mill River,10/9/18,185,0.1,90,113,>24196,<10
+Saw Mill River,9/9/18,241,0.1,90,113,>24196,<10
+Saw Mill River,8/13/18,10462,2.9,90,113,>24196,<10
+Saw Mill River,7/17/18,>24196,2.5,90,113,>24196,<10
+Saw Mill River,6/12/18,121,0,90,113,>24196,<10
+Saw Mill River,5/6/18,<10,0.5,90,113,>24196,<10
+Yonkers STP Outfall,10/9/18,62,0.1,91,21,2755,3
+Yonkers STP Outfall,9/9/18,<10,0.1,91,21,2755,3
+Yonkers STP Outfall,8/13/18,122,2.9,91,21,2755,3
+Yonkers STP Outfall,7/17/18,2755,2.5,91,21,2755,3
+Yonkers STP Outfall,6/12/18,148,0,91,21,2755,3
+Yonkers STP Outfall,5/6/18,86,0.5,91,21,2755,3
+Dyckman Street Beach,10/9/18,10,0,77,25,>24196,<10
+Dyckman Street Beach,9/9/18,20,0.9,77,25,>24196,<10
+Dyckman Street Beach,8/13/18,243,3.6,77,25,>24196,<10
+Dyckman Street Beach,7/16/18,86,1,77,25,>24196,<10
+Dyckman Street Beach,6/12/18,<10,0,77,25,>24196,<10
+Dyckman Street Beach,5/5/18,10,0,77,25,>24196,<10
+GW Bridge mid-channel,10/9/18,<10,0,89,17,1500,<1
+GW Bridge mid-channel,9/9/18,10,0.9,89,17,1500,<1
+GW Bridge mid-channel,8/13/18,31,3.6,89,17,1500,<1
+GW Bridge mid-channel,7/16/18,<10,1,89,17,1500,<1
+GW Bridge mid-channel,6/12/18,<10,0,89,17,1500,<1
+GW Bridge mid-channel,5/5/18,10,0,89,17,1500,<1
+Harlem River- Washington Bridge,10/10/18,30,0,83,35,>24196,8
+Harlem River- Washington Bridge,9/10/18,327,1.4,83,35,>24196,8
+Harlem River- Washington Bridge,8/14/18,62,3.6,83,35,>24196,8
+Harlem River- Washington Bridge,7/17/18,>24196,3.2,83,35,>24196,8
+Harlem River- Washington Bridge,6/13/18,<10,0,83,35,>24196,8
+Harlem River- Washington Bridge,5/6/18,10,0,83,35,>24196,8
+North River STP at 145th,10/9/18,10,0,86,33,2987,2
+North River STP at 145th,9/9/18,10,0.9,86,33,2987,2
+North River STP at 145th,8/13/18,364,3.6,86,33,2987,2
+North River STP at 145th,7/16/18,31,1,86,33,2987,2
+North River STP at 145th,6/12/18,10,0,86,33,2987,2
+North River STP at 145th,5/5/18,31,0,86,33,2987,2
+125th St. Pier,10/9/18,31,0,106,41,>24196,8
+125th St. Pier,9/9/18,20,0.9,106,41,>24196,8
+125th St. Pier,8/13/18,187,3.6,106,41,>24196,8
+125th St. Pier,7/16/18,31,1,106,41,>24196,8
+125th St. Pier,6/12/18,<10,0,106,41,>24196,8
+125th St. Pier,5/5/18,10,0,106,41,>24196,8
+Harlem River- Willis Ave. Bridge,10/10/18,10,0,84,31,5635,3
+Harlem River- Willis Ave. Bridge,9/10/18,465,1.4,84,31,5635,3
+Harlem River- Willis Ave. Bridge,8/14/18,414,3.6,84,31,5635,3
+Harlem River- Willis Ave. Bridge,7/17/18,30,1,84,31,5635,3
+Harlem River- Willis Ave. Bridge,6/13/18,<10,0,84,31,5635,3
+Harlem River- Willis Ave. Bridge,5/6/18,20,0,84,31,5635,3
+79th St. mid-channel,10/9/18,<10,0,89,15,1032,<1
+79th St. mid-channel,9/9/18,<10,0.9,89,15,1032,<1
+79th St. mid-channel,8/13/18,414,3.6,89,15,1032,<1
+79th St. mid-channel,7/16/18,10,1,89,15,1032,<1
+79th St. mid-channel,6/12/18,<10,0,89,15,1032,<1
+79th St. mid-channel,5/5/18,10,0,89,15,1032,<1
+Pier 96 Kayak Launch,10/9/18,31,0,78,23,12033,5
+Pier 96 Kayak Launch,9/9/18,496,0.9,78,23,12033,5
+Pier 96 Kayak Launch,8/13/18,1234,3.6,78,23,12033,5
+Pier 96 Kayak Launch,7/16/18,<10,1,78,23,12033,5
+Pier 96 Kayak Launch,6/12/18,10,0,78,23,12033,5
+Pier 96 Kayak Launch,5/5/18,<10,0,78,23,12033,5
+East River mid-channel at Roosevelt Is.,10/10/18,<10,0,84,17,344,<1
+East River mid-channel at Roosevelt Is.,9/10/18,20,1.4,84,17,344,<1
+East River mid-channel at Roosevelt Is.,8/14/18,108,3.6,84,17,344,<1
+East River mid-channel at Roosevelt Is.,7/17/18,<10,1,84,17,344,<1
+East River mid-channel at Roosevelt Is.,6/13/18,10,0,84,17,344,<1
+East River mid-channel at Roosevelt Is.,5/6/18,20,0,84,17,344,<1
+"Castle Point, NJ",10/9/18,20,0,78,21,1918,<10
+"Castle Point, NJ",9/9/18,145,0.9,78,21,1918,<10
+"Castle Point, NJ",8/13/18,1918,3.6,78,21,1918,<10
+"Castle Point, NJ",7/16/18,10,1,78,21,1918,<10
+"Castle Point, NJ",6/12/18,10,0,78,21,1918,<10
+"Castle Point, NJ",5/5/18,20,0,78,21,1918,<10
+Newtown Creek- Dutch Kills,10/10/18,41,0,94,57,>24196,<1
+Newtown Creek- Dutch Kills,9/10/18,20,1.4,94,57,>24196,<1
+Newtown Creek- Dutch Kills,8/14/18,19863,3.6,94,57,>24196,<1
+Newtown Creek- Dutch Kills,7/17/18,20,1,94,57,>24196,<1
+Newtown Creek- Dutch Kills,6/13/18,20,0,94,57,>24196,<1
+Newtown Creek- Dutch Kills,5/6/18,<10,0,94,57,>24196,<1
+East River mid-channel at 23rd St.,10/10/18,10,0,87,17,450,<1
+East River mid-channel at 23rd St.,9/10/18,10,1.4,87,17,450,<1
+East River mid-channel at 23rd St.,8/14/18,74,3.6,87,17,450,<1
+East River mid-channel at 23rd St.,7/17/18,<10,1,87,17,450,<1
+East River mid-channel at 23rd St.,6/13/18,10,0,87,17,450,<1
+East River mid-channel at 23rd St.,5/6/18,10,0,87,17,450,<1
+Newtown Creek- Metropolitan Ave. Bridge,10/10/18,41,0,94,173,>24196,5
+Newtown Creek- Metropolitan Ave. Bridge,9/10/18,7701,1.4,94,173,>24196,5
+Newtown Creek- Metropolitan Ave. Bridge,8/14/18,7270,3.6,94,173,>24196,5
+Newtown Creek- Metropolitan Ave. Bridge,7/17/18,11199,1,94,173,>24196,5
+Newtown Creek- Metropolitan Ave. Bridge,6/13/18,119,0,94,173,>24196,5
+Newtown Creek- Metropolitan Ave. Bridge,5/6/18,75,0,94,173,>24196,5
+The Battery mid-channel,10/9/18,<10,0,88,15,288,<1
+The Battery mid-channel,9/9/18,51,0.9,88,15,288,<1
+The Battery mid-channel,8/13/18,211,3.6,88,15,288,<1
+The Battery mid-channel,7/16/18,<10,1,88,15,288,<1
+The Battery mid-channel,6/12/18,10,0,88,15,288,<1
+The Battery mid-channel,5/5/18,10,0,88,15,288,<1
+Gowanus Canal,10/9/18,121,0,74,117,>24196,6
+Gowanus Canal,9/9/18,1993,0.9,74,117,>24196,6
+Gowanus Canal,8/13/18,>24196,3.6,74,117,>24196,6
+Gowanus Canal,7/16/18,183,1,74,117,>24196,6
+Gowanus Canal,6/12/18,52,0,74,117,>24196,6
+Gowanus Canal,5/5/18,379,0,74,117,>24196,6
