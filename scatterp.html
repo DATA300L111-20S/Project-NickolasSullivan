@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Creating SVG chart in D3</title>
+  <meta charset="utf-8">
+  <link href="projscatter.css" rel="stylesheet" />
+  <style>
+    /* No style rules here yet */
+    body {
+      font: 13px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .dot {
+      stroke: #000;
+    }
+
+    .tooltip {
+      position: absolute;
+      width: 200px;
+      height: 28px;
+      pointer-events: none;
+    }
+
+  </style>
+
+<body>
+  <script type="text/javascript" src="../d3.js"></script>
+
+  <script>
+    var margin = {
+      top: 30,
+      right: 50,
+      bottom: 40,
+      left: 40
+    };
+    width = 960 - margin.left - margin.right;
+    height = 500 - margin.top - margin.bottom;
+
+
+    // setup x 
+    var xValue = function(d) {
+        return d.Rain;
+      }, // data -> value
+      xScale = d3.scaleLinear()
+      .range([0, width]),
+      xMap = function(d) {
+        return xScale(xValue(d));
+      },
+      xAxis = d3.axisBottom()
+      .scale(xScale);
+
+    // setup y
+    var yValue = function(d) {
+        return d["EnteroCount"];
+      },
+      yScale = d3.scaleLinear()
+      .range([height, 0]),
+      yMap = function(d) {
+        return yScale(yValue(d));
+      },
+      yAxis = d3.axisLeft()
+      .scale(yScale);
+
+    var cValue = function(d) {
+        return d.Site;
+      },
+      color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var svg = d3.select("body")
+      .append("p")
+      .text("The data from the souce River Keeper is seen in Figure 0. It displays many points from 6 locations along the Hudson River Watershed. River Keeper monitors enterococcus (per 100mL) levels in the Hudson River, which is a type fecal indicator bacteria (FIB). The threshold for deeming a location safe is any enterococcus reading below 60 enterococcus (per 100mL). It was seen that there were a few locations that had unsafe levels in 2019. These FIBs are pathons that are unsafe for human consumption.")
+      .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    d3.select("body")
+      .append("figcaption")
+      .text("Enterococcus (per 100mL) reads at six locations along the Hudson River along with 4 days of rain fall (in) in 2019.");
+
+    var tooltip = d3.select("body")
+      .append("div")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
+
+    // load data
+    d3.csv('data2019.csv', function(error, data) {
+      data.forEach(function(d) {
+        d.EnteroCount = +d.EnteroCount;
+        d.Rain = +d.Rain;
+      });
+
+      xScale.domain([d3.min(data, xValue), d3.max(data, xValue)]);
+      yScale.domain([d3.min(data, yValue) - 1, d3.max(data, yValue) + 1]);
+
+      
+      svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis)
+        .append("text")
+        .attr("class", "label")
+        .attr("x", width)
+        .attr("y", +1)
+        .style("text-anchor", "end")
+        .text("4 Days Total Rain (in)")
+      svg.append('text')
+        .attr('x', 10)
+        .attr('y', 10)
+        .attr('class', 'label')
+        .text('Enterococcus Count (per 100mL)');;
+
+      
+      svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+        .append("text")
+        .attr("class", "label")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 45)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Enterococcus Count (per 100mL)")
+      svg.append('text')
+        .attr('x', width)
+        .attr('y', height + 35)
+        .attr('text-anchor', 'end')
+        .attr('class', 'label')
+        .text('4 Days Total Rain (in)');
+
+
+      svg.selectAll(".dot")
+        .data(data)
+        .enter().append("circle")
+        .attr("class", "dot")
+        .attr("r", 3)
+        .attr("cx", xMap)
+        .attr("cy", yMap)
+        .style("fill", function(d) {
+          return color(cValue(d));
+        })
+        .on("mouseover", function(d) {
+          tooltip.transition()
+            .duration(200)
+            .style("opacity", 1);
+          tooltip.html(d["Site"] + "<br/> (" + xValue(d) +
+              ", " + yValue(d) + ")")
+            .style("left", (d3.event.pageX + 5) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+          tooltip.transition()
+            .duration(500)
+            .style("opacity", 0);
+        });
+
+      
+      var legend = svg.selectAll(".legend")
+        .data(color.domain())
+        .enter().append("g")
+        .attr("class", "legend")
+        .attr("transform", function(d, i) {
+          return "translate(0," + i * 20 + ")";
+        });
+
+
+      legend.append("rect")
+        .attr("x", width - 18)
+        .attr("width", 18)
+        .attr("height", 18)
+        .style("fill", color);
+
+
+      legend.append("text")
+        .attr("x", width - 24)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("text-anchor", "end")
+        .text(function(d) {
+          return d;
+        })
+    });
+
+  </script>
+</body>
