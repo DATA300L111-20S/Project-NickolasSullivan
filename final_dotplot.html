@@ -1,0 +1,186 @@
+<!doctype html>
+<!--
+  Course: DATA 300L 111 Spring 2020
+  Author: Eleni Nickolas and Patrick Sullivan
+-->
+<html lang="en">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<head>
+  <title>Water Quality in the Hudson Valley Watershed</title>
+  <meta charset="utf-8" />
+  <link href="final_dotplot.css" rel="stylesheet" type="text/css" />
+  <script type="module" src="NickolasSullivan.js"></script>
+  <script>
+
+  </script>
+</head>
+
+
+<body>
+
+  <header>
+
+    <h1>Water Quality of the Hudson Valley</h1>
+
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Bacteria Count by Location</h2>
+      <p>The chart shows the number of enterococcus bateria found from monthly water quality tests taken for each location between May and October of 2019. The threshold for deeming a location as safe is an enterococcus reading below 60 enterococcus (per 100mL), indicated by the green and red marks. Out of these locations, Marbolo Landing and Wappingers-New Hamburg have records of unsafe enterococcus levels in 2019.</p>
+    </section>
+    <figure>
+      <script type="text/javascript">
+        // this is the size of the svg container -- the white part
+        var fullwidth = 1000,
+          fullheight = 600;
+
+        // these are the margins around the graph. Axes labels go in margins.
+        var margin = {
+          top: 20,
+          right: 20,
+          bottom: 30,
+          left: 200
+        };
+
+        var width = 1000 - margin.left - margin.right,
+          height = 600 - margin.top - margin.bottom;
+
+        var widthScale = d3.scale.linear()
+          .range([0, width]);
+
+        var heightScale = d3.scale.ordinal()
+          .rangeRoundBands([margin.top, height], 0.2);
+
+        var xAxis = d3.svg.axis()
+          .scale(widthScale)
+          .orient("bottom");
+
+        var yAxis = d3.svg.axis()
+          .scale(heightScale)
+          .orient("left")
+          .innerTickSize([0]);
+
+        var svg = d3.select("body")
+          .append("svg")
+          .attr("width", fullwidth)
+          .attr("height", fullheight);
+
+        d3.csv("data2019.csv", function(error, data) {
+
+          if (error) {
+            console.log("error reading file");
+          }
+
+          data.sort(function(a) {
+            return d3.descending(+a.Site);
+          });
+
+
+          widthScale.domain([0, 120]);
+
+          // js map: will make a new array out of all the d.SiteName fields
+          heightScale.domain(data.map(function(d) {
+            return d.Site;
+          }));
+
+
+          // Make lines from y labels to highest dot
+
+          var linesGrid = svg.selectAll("lines.grid")
+            .data(data)
+            .enter()
+            .append("line");
+
+          linesGrid.attr("class", "grid")
+            .attr("x1", margin.left)
+            .attr("y1", function(d) {
+              return heightScale(d.Site) + heightScale.rangeBand() / 2;
+            })
+            .attr("x2", function(d) {
+              return margin.left + widthScale(+d.EnteroCount);
+
+            })
+            .attr("y2", function(d) {
+              return heightScale(d.Site) + heightScale.rangeBand() / 2;
+            });
+
+
+          // Add a scale for bubble color
+          var color = d3.scale.quantize()
+            .domain([59, 60])
+            .range(["green", "red"])
+
+          // Make the dots for 2019 data
+
+          var dots2019 = svg.selectAll("circle.EnteroCount")
+            .data(data)
+            .enter()
+            .append("circle")
+            .style("fill", function(d) {
+              return color(d.EnteroCount);
+            });
+
+          dots2019
+            .attr("class", "Entero Count")
+            .attr("cx", function(d) {
+              return margin.left + widthScale(+d.EnteroCount);
+            })
+            .attr("r", heightScale.rangeBand() / 20)
+            .attr("cy", function(d) {
+              return heightScale(d.Site) + heightScale.rangeBand() / 2;
+            })
+            .append("title")
+            .text(function(d) {
+              return d.EnteroCount + d.EnteroCount;
+            });
+
+          // add the axes
+
+          svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(" + margin.left + "," + height + ")")
+            .call(xAxis);
+
+          svg.append("g")
+            .attr("class", "y axis")
+            .attr("transform", "translate(" + margin.left + ", 0)")
+            .call(yAxis);
+
+          svg.append("text")
+            .attr("class", "xlabel")
+            .attr("transform", "translate(" + (margin.left + width / 2) + " ," +
+              (height + margin.bottom) + ")")
+            .style("text-anchor", "middle")
+            .attr("dy", "15")
+            .text("Entero Count");
+
+        });
+      </script>
+    </figure>
+  </main>
+
+  <footer>
+
+    <section>
+      <h3>Sources</h3>
+      <ul>
+        <li><cite><a href="https://www.riverkeeper.org/water-quality/hudson-river/">Riverkeeper Data</a></cite></li>
+        <li><cite><a href="https://github.com/deldersveld/topojson">Professor Johnson's GitHub</a></cite></li>
+        <li><cite><a href="http://bl.ocks.org/rpgove/10603627">Robert Gove's Block</a></cite></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Authors
+      </h3>
+      <p>Eleni Nickolas and Patrick Sullivan</p>
+    </section>
+
+
+  </footer>
+
+  <script src="NickolasSullivan.js" type="module"></script>
+</body></html>

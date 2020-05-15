@@ -1,0 +1,115 @@
+/* Load custom fonts from Google Fonts library. */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+/* General styling for the whole page */
+
+html{
+  font-size: 120%;
+  font-family: "EB Garamond", serif;
+  background-color: #eee;
+  overflow-y: scroll;
+}
+
+body {
+  padding: 0 2%;
+  margin: 0;
+}
+
+svg {
+  background-color: lightgray;
+  font-family: "EB Garamond", serif;
+  display: block;
+  margin: 0 auto;
+}
+
+circle {
+  stroke-width: 1;
+}
+
+
+circle:hover {
+  opacity: .5;
+}
+
+line.grid {
+  stroke: #eee;
+}
+
+line.between {
+  stroke: black;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: "EB Garamond", serif;
+  font-size: 13px;
+}
+
+.xlabel {
+  font-family:font-family: "EB Garamond", serif;
+  font-size: 13px;
+  color: gray;
+}
+
+/* Layout for header */
+
+header {
+  text-align: center
+}
+
+main {
+  display: flex;
+  align-items: stretch;
+}
+
+footer {
+  font-size: 75%;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+/* Layout main content */
+
+main > section {
+  flex: 2;
+}
+
+h1,
+h2,
+h3{font-family: "Public Sans", sans-serif;
+  color: blue
+}
+
+p{font-family: "EB Garamond", sans-serif};
+
+
+/* Style source list */
+
+footer li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 960px) {
+
+  /* Switch to vertical flow for small screens */
+  main {
+    flex-direction: column;
+  }
+
+  /* Align heading to top of footer on small screen */
+  footer {
+    align-items: flex-start;
+    margin-top: 1em;
+  }
