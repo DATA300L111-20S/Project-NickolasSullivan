@@ -1,0 +1,31 @@
+Site,Date,EnteroCount,Rain,Number of Samples,Geometric Mean,Max,Min
+Norrie Point mid-channel,October,2,0.5,73,3,1203,<1
+Norrie Point mid-channel,September,4,0,73,3,1203,<1
+Norrie Point mid-channel,August,6,0.1,73,3,1203,<1
+Norrie Point mid-channel,July,0.05,0,73,3,1203,<1
+Norrie Point mid-channel,June,2,0,73,3,1203,<1
+Norrie Point mid-channel,May,4,0.3,73,3,1203,<1
+Poughkeepsie Drinking Water Intake,October,3,0.4,75,5,76,<1
+Poughkeepsie Drinking Water Intake,September,1,0,75,5,76,<1
+Poughkeepsie Drinking Water Intake,August,10,0.1,75,5,76,<1
+Poughkeepsie Drinking Water Intake,July,6,0,75,5,76,<1
+Poughkeepsie Drinking Water Intake,June,2,0,75,5,76,<1
+Poughkeepsie Drinking Water Intake,May,10,0.3,75,5,76,<1
+Poughkeepsie Launch Ramp,October,6,0.4,73,11,>2420,<1
+Poughkeepsie Launch Ramp,September,11,0,73,11,>2420,<1
+Poughkeepsie Launch Ramp,August,26,0.1,73,11,>2420,<1
+Poughkeepsie Launch Ramp,July,8,0,73,11,>2420,<1
+Poughkeepsie Launch Ramp,June,20,0,73,11,>2420,<1
+Poughkeepsie Launch Ramp,May,7,0.3,73,11,>2420,<1
+Marlboro Landing,October,13,0.4,71,11,>2420,<1
+Marlboro Landing,September,115,0,71,11,>2420,<1
+Marlboro Landing,August,23,0.1,71,11,>2420,<1
+Marlboro Landing,July,7,0,71,11,>2420,<1
+Marlboro Landing,June,11,0,71,11,>2420,<1
+Marlboro Landing,May,12,0.3,71,11,>2420,<1
+Wappingers- New Hamburg,October,66,0.4,71,15,>2420,<1
+Wappingers- New Hamburg,September,16,0,71,15,>2420,<1
+Wappingers- New Hamburg,August,50,0.1,71,15,>2420,<1
+Wappingers- New Hamburg,July,22,0,71,15,>2420,<1
+Wappingers- New Hamburg,June,16,0,71,15,>2420,<1
+Wappingers- New Hamburg,May,4,0.1,71,15,>2420,<1
