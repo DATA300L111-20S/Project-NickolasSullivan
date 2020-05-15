@@ -1,0 +1,263 @@
+<!doctype html>
+<!--
+  Course: DATA 300L 111 Spring 2020
+  Author: Patrick Sullivan
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="final_scatterplot.css" rel="stylesheet" />
+  <script src="../d3.js"></script> 
+</head>
+
+<body>
+
+  <header>
+
+    <h1> Water Quality of the Hudson River Watershed</h1>
+    
+  </header>
+
+  <main>
+    <figure id = "introduction">
+    <section>
+      
+      <h2>Enterococcus levels from 5 sites along the Hudson River</h2>
+      <p>The data displays measurements from 5 locations along the Hudson River Watershed. The EPA requires that locations monitor enterococcus levels because it is a type fecal indicator bacteria (FIB). By monitoring these levels, it could determine whether the quality of the waterfront is deemed safe for human contact. The threshold for deeming a location as safe is an enterococcus reading below 60 enterococcus (per 100mL). It was seen that there were a few locations that had unsafe levels in 2019. </p>
+      
+      <p> This example demonstrates the construction of a scatter plot from a CSV file. </p>
+      
+    
+    </section>
+
+   
+      <section class = "guide">
+            <h3>Reader Guide</h3>
+            <p>Hover over any point on the plot to display the site location, date, total inches of precipitation 4 days prior to measurement, and total enterococcus reading. Each are read as (rain in inches, enterococcus count). The threshold line is represented by the dashed line at 60 (per 100mL).</p>
+          </section>
+          
+      </figure>
+    
+  </main>
+
+  <footer>
+    
+    <h3>Source: </h3>
+    <ul>
+    <li><cite><a
+    href= "https://www.riverkeeper.org/water-quality/hudson-river/ulster-dutchess/"> RiverKeeper NY's Clean Water Advocate </a></cite></li>
+    
+    </ul>
+  </footer>
+
+
+<script type="text/javascript" src="../d3.js"></script>
+  
+</body>
+</html>
+
+  <style>
+    /* No style rules here yet */
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+     .dot {
+      stroke: #000;
+    }
+
+    .tooltip {
+      position: absolute;
+      pointer-events: none;
+      z-index: 2;
+      background: white;
+      width: 130px;
+      height:75px; 
+      color: black;
+      font-size: 15px;
+      padding: 0.5px;
+      font-family: "EB Garamond", serif;
+    }
+    
+
+    .label1 {
+    stroke: red;
+    stroke-width: 2px;
+    stroke-dasharray: 5;
+
+  </style>
+
+<body>
+  <script type="text/javascript" src="../d3.js">
+  </script>
+
+  <script>
+      
+    var margin = {
+      top: 30,
+      right: 70,
+      bottom: 50,
+      left: 70
+    };
+    width = 960 - margin.left - margin.right;
+    height = 500 - margin.top - margin.bottom;
+
+
+    // setup x 
+    var xValue = function(d) {
+        return d.Rain;
+      }, // data -> value
+      xScale = d3.scaleLinear()
+      .range([0, width]),
+      xMap = function(d) {
+        return xScale(xValue(d));
+      },
+      xAxis = d3.axisBottom()
+      .scale(xScale);
+
+    // setup y
+    var yValue = function(d) {
+        return d["EnteroCount"];
+      },
+      yScale = d3.scaleLinear()
+      .range([height, 0]),
+      yMap = function(d) {
+        return yScale(yValue(d));
+      },
+      yAxis = d3.axisLeft()
+      .scale(yScale);
+
+    var cValue = function(d) {
+        return d.Site;
+      },
+      color = d3.scaleOrdinal(d3.schemeCategory20);
+
+    var svg = d3.select("body")
+      .append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    
+    d3.select("body")
+      .append("figcaption")
+      .text("Enterococcus count (per 100mL) recorded after a 4 day total of rainfall (in) at five locations on the Hudson River in 2019. Any value below the dashed line is deemed safe by the EPA for human contact or accidental consumption.");
+
+    var tooltip = d3.select("body")
+      .append("div")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
+
+    // load data
+    d3.csv('data19.csv', function(error, data) {
+      data.forEach(function(d) {
+        d.EnteroCount = +d.EnteroCount;
+        d.Rain = +d.Rain;
+      });
+
+      xScale.domain([d3.min(data, xValue) -0.02, d3.max(data, xValue) +0.05]);
+      yScale.domain([d3.min(data, yValue) - 1, d3.max(data, yValue) + 1]);
+
+      
+      svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis)
+        .append("text")
+        .attr("class", "label")
+        .attr("x", width)
+        .attr("y", +1)
+        .style("text-anchor", "end")
+      svg.append('text')
+        .attr('x', -350)
+        .attr('y', -50)
+        .attr('class', 'label')
+      .attr("transform", "rotate(-90)")
+        .text('Enterococcus Count (per 100mL)');
+
+      
+      svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+        .append("text")
+        .attr("class", "label")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 45)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+      svg.append('text')
+        .attr('x', 500)
+        .attr('y', height + 45)
+        .attr('text-anchor', 'end')
+        .attr('class', 'label')
+        .text('4 Days Total Rain (in)');
+
+      
+      svg.selectAll(".dot")
+        .data(data)
+        .enter().append("circle")
+        .attr("class", "dot")
+        .attr("r", 2.5)
+        .attr("cx", xMap)
+        .attr("cy", yMap)
+        .style("fill", function(d) {
+          return color(cValue(d));
+        })
+        .on("mouseover", function(d) {
+          tooltip.transition()
+            .duration(200)
+            .style("opacity", 1);
+          tooltip.html(d["Site"] + "<br/>" + d["Date"] + "<br/> (" + xValue(d) + ", " + yValue(d) + ")")
+            .style("left", (d3.event.pageX + 10) + "px")
+            .style("top", (d3.event.pageY - 30) + "px");
+        })
+        .on("mouseout", function(d) {
+          tooltip.transition()
+            .duration(500)
+            .style("opacity", 0);
+        });
+
+      
+      var legend = svg.selectAll(".legend")
+        .data(color.domain())
+        .enter().append("g")
+        .attr("class", "legend")
+        .attr("transform", function(d, i) {
+          return "translate(0," + i * 20 + ")";
+        });
+      
+        
+    svg.append("line")
+        .attr("class", "label1")
+        .attr("x1", 0)
+        .attr("y1", 201)
+        .attr("x2", width)
+        .attr("y2", 201)
+        .style("stroke", "red")
+        .attr("transform", "translate(0,0)");
+
+
+      legend.append("rect")
+        .attr("x", width - 18)
+        .attr("width", 18)
+        .attr("height", 18)
+        .style("fill", color);
+
+
+      legend.append("text")
+        .attr("x", width - 24)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("text-anchor", "end")
+        .text(function(d) {
+          return d;
+        })
+    });
+
+  </script>
+</body> 

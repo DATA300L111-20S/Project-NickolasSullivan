@@ -1,0 +1,30 @@
+Site,Date,EnteroCount,Rain,Number of Samples,Geometric Mean,Max,Min
+Norrie Point mid-channel,10/10/19,2,0.5,73,3,1203,<1
+Norrie Point mid-channel,9/12/19,4,0,73,3,1203,<1
+Norrie Point mid-channel,8/8/19,6,0.1,73,3,1203,<1
+Norrie Point mid-channel,7/11/19,0.05,0,73,3,1203,<1
+Norrie Point mid-channel,6/7/19,2,0,73,3,1203,<1
+Norrie Point mid-channel,5/10/19,4,0.3,73,3,1203,<1
+Poughkeepsie Drinking Water Intake,10/9/19,3,0.4,75,5,76,<1
+Poughkeepsie Drinking Water Intake,9/11/19,1,0,75,5,76,<1
+Poughkeepsie Drinking Water Intake,8/7/19,10,0.1,75,5,76,<1
+Poughkeepsie Drinking Water Intake,7/10/19,6,0,75,5,76,<1
+Poughkeepsie Drinking Water Intake,6/6/19,2,0,75,5,76,<1
+Poughkeepsie Drinking Water Intake,5/9/19,10,0.3,75,5,76,<1
+Poughkeepsie Launch Ramp,10/9/19,6,0.4,73,11,>2420,<1
+Poughkeepsie Launch Ramp,9/11/19,11,0,73,11,>2420,<1
+Poughkeepsie Launch Ramp,8/7/19,26,0.1,73,11,>2420,<1
+Poughkeepsie Launch Ramp,7/10/19,8,0,73,11,>2420,<1
+Poughkeepsie Launch Ramp,6/6/19,20,0,73,11,>2420,<1
+Poughkeepsie Launch Ramp,5/9/19,7,0.3,73,11,>2420,<1
+Marlboro Landing,10/9/19,13,0.4,71,11,>2420,<1
+Marlboro Landing,9/11/19,115,0,71,11,>2420,<1
+Marlboro Landing,8/7/19,23,0.1,71,11,>2420,<1
+Marlboro Landing,7/10/19,7,0,71,11,>2420,<1
+Marlboro Landing,6/6/19,11,0,71,11,>2420,<1
+Marlboro Landing,5/9/19,12,0.3,71,11,>2420,<1
+Wappingers- New Hamburg,10/9/19,66,0.4,71,15,>2420,<1
+Wappingers- New Hamburg,9/11/19,16,0,71,15,>2420,<1
+Wappingers- New Hamburg,8/7/19,50,0.1,71,15,>2420,<1
+Wappingers- New Hamburg,7/10/19,22,0,71,15,>2420,<1
+Wappingers- New Hamburg,6/6/19,16,0,71,15,>2420,<1
